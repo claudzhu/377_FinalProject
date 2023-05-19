@@ -155,7 +155,9 @@ const SJF = () => {
       {executionStarted && executeProcess()}
       {executionStarted && processes.length === 0 && (
         <div>
-        //to show what they were in order before/better see what the algorithm did
+          {
+            //to show what they were in order before/better see what the algorithm did
+          }
           <h2>Original Order</h2>
           {originalOrder.map((process) => (
             <div key={process.id}>
