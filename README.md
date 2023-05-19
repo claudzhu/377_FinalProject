@@ -1,7 +1,7 @@
 # 377_FinalProject
 
 ## About
-This project is a visualizer for three main CPU scheduling algorithms, First Come First Serve, Shortest Job First, Shortest Job Remaining. Using the knowledge from Project 3, I refactored some of the algorithms codes in C++ in that project into Javascript. I then took these algorithms and incorporated them into a React based website. This website allows users to add processes, which randomly generate arrival and duration times, and then execute them for scheduling based on their chosen algorithm. After the execute button is pressed, the website displays a running queue of the processes and display which process at the moment is running. After the process is complete, a colored timeline of the processes in appropiate order is displayed, as well as a list of how they were initially. 
+This project is a visualizer for three main CPU scheduling algorithms, First Come First Serve, Shortest Job First, Shortest Job Remaining. Using the knowledge from Project 3, I refactored some of the algorithm codes in C++ in that project into Javascript. I then took these algorithms and incorporated them into a React based website. This website allows users to add processes, which randomly generate arrival and duration times, and then execute them for scheduling based on their chosen algorithm. After the execute button is pressed, the website displays a running queue of the processes and display which process at the moment is running. After the process is complete, a colored timeline of the processes in appropiate order is displayed, as well as a list of how they were initially. 
 
 ## Design Process
 1. Think of Idea → Extends on Project 3
