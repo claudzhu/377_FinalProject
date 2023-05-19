@@ -18,8 +18,10 @@ This project is a visualizer for three main CPU scheduling algorithms, First Com
   - Figure how to integrate front and back together and get it to run!
 
 ## How to Play Around
- This website was made using React and Javascript. There is no C code.
+ This website was made using React and Javascript. There is no C code!
+ 
  To quickly deploy the app, I used Code Sandbox. 
+ 
  Here is that link: https://u20em0.csb.app/ 
  
  ## Video and Presentation
