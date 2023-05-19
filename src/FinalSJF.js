@@ -108,16 +108,22 @@ const SJF = () => {
   return (
     <div>
       <h2>SHORTEST JOB FIRST</h2>
-      //button for addProcess
+      {
+        //button for addProcess 
+      }
       <button onClick={addProcess} disabled={executionStarted}>
         Add Process
       </button>
-      //button that begins execution
+      {
+        //button that begins execution
+      }
       <button onClick={startExecution} disabled={executionStarted}>
         Execute
       </button>
       <button onClick={refresh}>Refresh</button>
-      //this displays the process that is on top so to speak
+      {
+        //this displays the process that is on top so to speak
+      }
       <div>
         {currentProcess && (
           <div>
@@ -129,7 +135,9 @@ const SJF = () => {
           </div>
         )}
       </div>
-      //this displays the processes that haven't run yet
+      {
+        //this displays the processes that haven't run yet
+      }
       <div>
         <h2>Process Queue</h2>
         {processes.map((process) => (
@@ -141,7 +149,9 @@ const SJF = () => {
           </div>
         ))}
       </div>
-      //now after everything has run and stuff we can show the final timeline and original order visualizations
+      {
+        //now after everything has run and stuff we can show the final timeline and original order visualizations
+      }
       {executionStarted && executeProcess()}
       {executionStarted && processes.length === 0 && (
         <div>
@@ -157,7 +167,9 @@ const SJF = () => {
           ))}
         </div>
       )}
-      //display the timeline now using css 
+      {
+        //display the timeline now using css
+      }
       {timeline.length > 0 && !executionStarted && (
         <div>
           <h2>Timeline</h2>
