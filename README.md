@@ -8,6 +8,7 @@ This project is a visualizer for three main CPU scheduling algorithms, First Com
   - Decide to use React to make visualization website
   - Break down into steps
 2. Design Interface
+  - Drop down menu to select which sorting algorithm
   - Button to Add Processes
   - Once all processes “loaded” -> execute algorithm (button)
   - Display a running queue and show what process is currently running
