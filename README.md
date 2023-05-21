@@ -26,7 +26,7 @@ This project is a visualizer for three main CPU scheduling algorithms, First Com
  Here is that link: https://u20em0.csb.app/ 
  
  ## Video and Presentation
- Link to Video: coming soon
+ Link to Video: https://watch.screencastify.com/v/ffldt0mjwFh7TcynSefL
  
  Link to Presentation: https://docs.google.com/presentation/d/16LwMCGVk9NRzuSzIetpi2Or42sZz7mBBE5NTeWNgFwA/edit?usp=sharing 
 
